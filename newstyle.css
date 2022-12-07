@@ -1,0 +1,28 @@
+:root{
+    --main-bg-color:#35FF43;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 15vh;
+    margin: 3px;
+    background-color: var(--main-bg-color);
+}
+img{
+    height: 5vh;
+}
+.mainh{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.h1{
+    height: 7vh;
+    align-content: center;
+}
+.navigation{
+    
+}

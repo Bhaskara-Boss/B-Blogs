@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
+:root{
+    --main-bg-clr = rgb(70, 242, 128);
+}
+*{
+    margin: 3px 0.8px 0px 0.8px;
+    padding: 0;
+}
+.heading{
+    background-color: rgb(70, 242, 128);
+    border-radius: 5px;
+    height: 15vh;
+    font-family: 'Poppins', Sans-Serif;
+}
+.link{
+    color: white;
+    margin: 3px;
+    text-decoration: none;
+    display: inline;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.huduku{
+    height: 4vh;
+}
+.bodycon{
+    height: 73vh;
+    font-family: Sans-Serif;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 200, 120);
+    height: 7vh;
+    margin: 0px;
+}
